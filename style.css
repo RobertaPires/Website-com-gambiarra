@@ -1,0 +1,48 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'JetBrains Mono';;
+  overflow-x: hidden;
+}
+body{
+  background-image: linear-gradient(to left, rgb(27, 26, 26), rgb(58, 58, 57));
+}
+h1{
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+}
+nav{
+  display: flex;
+}
+ol{
+  display: flex;
+  list-style-type: none;
+}
+li{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+a{
+  margin-right: 20px;
+  padding-right: 10px;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.banner{
+  margin-top:20px;
+  width: 1500px;
+  height: 400px;
+  overflow-y: hidden;
+  box-shadow: 5px 5px 10px 5px;
+}
+h2{
+  color: white;
+}
+#about__US{
+  color:white;
+  font-weight: 600;
+}
